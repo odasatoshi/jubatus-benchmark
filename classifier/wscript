@@ -7,7 +7,7 @@ def configure(conf):
     conf.env.CXXFLAGS += ['-I../common']
 
 def build(bld):
-    name = 'jubatus-bench-classifier'
+    name = 'jubatus-random-bench-classifier'
     bld.program(
         source = [ name + '.cpp',
                    '../common/main.cpp',
